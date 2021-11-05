@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: calibri;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  background-color:rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a{
+  color:white;
+  float: left;
+  padding:0 100px;
+  line-height: 120px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.header-right a:hover {
+  background-color: rgba(41, 40, 40, 0.3);
+}
+
+.header-logo {
+  width: 60px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.top-wrapper {
+  padding-top: 350px;
+  padding-bottom: 350px;
+  background-image: url(https://i.ibb.co/zn3TcQN/photo-2021-11-03-05-20-39-2.jpg);
+  background-size: cover;
+}
+
+.main-logo {
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 60px;
+}
+
+.about-qna {
+  border-left: 2px dashed grey;
+  padding-left: 100px;
+  float: right;
+  position: relative;
+  width: 50%;
+  margin-right:100px
+}
+
+.about-qna-text p{
+  margin-bottom:100px;
+  float: left;
+}
+
+.about-qna bold{
+  font-weight: bold;
+}
+
+.bottom-wrapper{
+  height: 650px;
+  background-color: white;
+  padding-bottom: 80px;
+}
+
+.bottom-wrapper-title{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  width: 25%;
+  justify-content: center;
+}
+
+.footers {
+  height: 150px;
+  width: 100%;
+  background-color:rgba(34, 49, 52, 1);
+
+}
+
+.footer-left p{
+  padding-top:20px;
+  line-height: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-right {
+  float:right;
+}
+
+.footer-right p{
+  font-weight: bold;
+  float:left;
+  display: block;
+}
+
+span.menu-icon {
+  display: none;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0 7px #1a7940;
+  float: right;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 450px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
